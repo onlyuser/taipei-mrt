@@ -54,10 +54,10 @@ graph taipei_mrt {
     BR10 [label="萬芳醫院"]
     BR11 [label="萬芳社區"]
     BR12 [label="木柵"]
-    BR13_Y1 [label="動物園", shape=ellipse, style="", color=black, fontcolor=black]
+    BR13_GLA0_S1_Y1 [label="動物園", shape=ellipse, style="", color=black, fontcolor=black]
 
     edge [color=brown]
-    BL18_B11 -- B10 -- B9_SB10 -- B8 -- B7 -- B6 -- B5 -- B4 -- B3 -- B2_Y29 -- B1 -- BR1 -- BR2 -- BR3_G18 -- BL10_BR4 -- BR5_R8 -- BR6 -- BR7_Y39 -- BR8 -- BR9 -- BR10 -- BR11 -- BR12 -- BR13_Y1
+    BL18_B11 -- B10 -- B9_SB10 -- B8 -- B7 -- B6 -- B5 -- B4 -- B3 -- B2_Y29 -- B1 -- BR1 -- BR2 -- BR3_G18 -- BL10_BR4 -- BR5_R8 -- BR6 -- BR7_Y39 -- BR8 -- BR9 -- BR10 -- BR11 -- BR12 -- BR13_GLA0_S1_Y1
 
     node [color=darkgreen, fontcolor=white]
     G22 [label="松山"]
@@ -231,6 +231,39 @@ graph taipei_mrt {
     edge [color=pink]
     R27 -- R26
 
+    node [color=brown, fontcolor=white]
+    BR13_GLA0_S1_Y1 [label="動物園"]
+    subgraph cluster_0 {
+        label="深坑輕軌"
+        style=rounded
+        node [color=brown, fontcolor=white]
+
+        S2 [label="草地尾"]
+        S3 [label="阿柔洋"]
+        S4 [label="平埔"]
+        S5 [label="昇高"]
+        S6 [label="烏月"]
+        S7 [label="石碇服務區"]
+    }
+
+    edge [color=brown]
+    BR13_GLA0_S1_Y1 -- S2 -- S3 -- S4 -- S5 -- S6 -- S7
+
+    node [color=yellowgreen, fontcolor=white]
+    BR13_GLA0_S1_Y1 [label="動物園"]
+    subgraph cluster_1 {
+        label="貓空纜車"
+        style=rounded
+        node [color=yellowgreen, fontcolor=white]
+
+        GLA1 [label="動物園內"]
+        GLA2 [label="指南宮"]
+        GLA3 [label="貓空"]
+    }
+
+    edge [color=yellowgreen]
+    BR13_GLA0_S1_Y1 -- GLA1 -- GLA2 -- GLA3
+
     node [color=turquoise, fontcolor=black]
     SB01 [label="大稻埕"]
     R15_SB02 [label="雙連", shape=ellipse, style="", color=black, fontcolor=black]
@@ -304,8 +337,8 @@ graph taipei_mrt {
     Y3 [label="馬明潭"]
     Y2 [label="木柵新站"]
     Y1A [label="政大"]
-    BR13_Y1 [label="動物園", shape=ellipse, style="", color=black, fontcolor=black]
+    BR13_GLA0_S1_Y1 [label="動物園", shape=ellipse, style="", color=black, fontcolor=black]
 
     edge [color=yellow]
-    Y43 -- Y42 -- G7_Y41 -- Y40 -- BR7_Y39 -- Y38 -- BL12_Y37 -- Y36 -- Y35 -- SB07_Y34 -- Y33 -- Y32 -- Y31 -- Y30 -- B2_Y29 -- Y28 -- Y27 -- R20_Y26 -- Y25 -- Y24 -- Y23 -- Y22 -- Y21 -- Y20 -- Y19B -- Y19A -- Y19 -- Y18 -- Y17 -- Y16 -- B2_Y15 -- Y14 -- Y13 -- Y12 -- LG06_Y11 -- Y10 -- Y9 -- Y8_Y44 -- Y7 -- G4_Y6 -- Y5 -- Y4 -- Y3 -- Y2 -- Y1A -- BR13_Y1
+    Y43 -- Y42 -- G7_Y41 -- Y40 -- BR7_Y39 -- Y38 -- BL12_Y37 -- Y36 -- Y35 -- SB07_Y34 -- Y33 -- Y32 -- Y31 -- Y30 -- B2_Y29 -- Y28 -- Y27 -- R20_Y26 -- Y25 -- Y24 -- Y23 -- Y22 -- Y21 -- Y20 -- Y19B -- Y19A -- Y19 -- Y18 -- Y17 -- Y16 -- B2_Y15 -- Y14 -- Y13 -- Y12 -- LG06_Y11 -- Y10 -- Y9 -- Y8_Y44 -- Y7 -- G4_Y6 -- Y5 -- Y4 -- Y3 -- Y2 -- Y1A -- BR13_GLA0_S1_Y1
 }
