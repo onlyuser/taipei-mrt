@@ -7,8 +7,9 @@ About:
 ------
 
 taipei-mrt is a dot specification for the Taipei MRT.
+台北捷運系統graphviz dot地圖.
 
-A Motivating Example
+Motivating Example
 --------------------
 
 ![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt.png "taipei-mrt")
@@ -34,4 +35,4 @@ dot taipei-mrt.dot -Tpng -otaipei-mrt.png
 Keywords:
 ---------
 
-    Taipei MRT, dot, graphviz, 台北捷運
+    Taipei MRT, dot, graphviz, graph search, 台北捷運, 捷運系統, 捷運站, 地圖
