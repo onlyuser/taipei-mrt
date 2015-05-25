@@ -14,7 +14,13 @@ graph taipei_mrt {
         A3_Y19 [label="新北產業園區", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
         A4 [label="新莊副都心"]
         A5 [label="泰山"]
-        A5a_W8 [label="貴子坑", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
+    }
+    A5a_W8 [label="貴子坑", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
+    subgraph cluster_4 {
+        label="桃園國際機場捷運"
+        style="rounded, filled"
+        node [color=purple, fontcolor=white]
+
         A6 [label="泰山貴和"]
         A7 [label="體育大學"]
         A8 [label="長庚醫院"]
@@ -113,7 +119,7 @@ graph taipei_mrt {
     G6 [label="萬隆"]
     G5 [label="景美"]
     G4_Y6 [label="大坪林", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
-    G3 [label="七張"]
+    G3 [label="七張", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     G2 [label="新店區公所"]
     G1 [label="新店"]
     node [color=green, fontcolor=black]
@@ -171,7 +177,7 @@ graph taipei_mrt {
     LG05 [label="仁愛公園"]
     LG06_Y11 [label="中和", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     LG07 [label="錦和"]
-    LG08 [label="中和高中"]
+    LG08 [label="中和高中", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     LG09 [label="廷寮"]
     LG10 [label="清水站"]
     LG11 [label="土城"]
@@ -219,7 +225,7 @@ graph taipei_mrt {
     L001_O8 -- L002 -- L003 -- L004 -- L004_P -- L005_LR06 -- L006 -- L007 -- L008 -- L009
 
     node [color=orange, fontcolor=black]
-    O43_W1 [label="蘆洲"]
+    O43_W1 [label="蘆洲", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     O44 [label="三民高中"]
     O45 [label="徐匯中學"]
     O46 [label="三和國中"]
@@ -259,7 +265,7 @@ graph taipei_mrt {
     R30 [label="關渡"]
     R29 [label="忠義"]
     R28 [label="復興崗"]
-    R26 [label="北投"]
+    R26 [label="北投", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     R25 [label="奇岩"]
     R24 [label="唭哩岸"]
     R23 [label="石牌"]
@@ -332,13 +338,12 @@ graph taipei_mrt {
     SB08 [label="上灣仔"]
     SB09 [label="葫蘆洲"]
     B9_SB10 [label="東湖", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
-    SB11 [label="下社后"]
+    SB11 [label="下社后", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     SB12 [label="社后"]
     SB13 [label="樟樹灣"]
     SB14 [label="汐科"]
     SB15 [label="汐止區公所"]
     node [color=navy, fontcolor=white]
-    SB11 [label="下社后"]
     SB11A [label="五分"]
     SB11B [label="火炭坑口"]
     SB11C [label="內溝"]
@@ -415,8 +420,8 @@ graph taipei_mrt {
         W5 [label="楓樹腳"]
         W6 [label="坡雅頭"]
         W7 [label="義學"]
-        A5a_W8 [label="貴子坑"]
     }
+    A5a_W8 [label="貴子坑"]
 
     edge [color=yellow]
     Y22_W1A -- W1B -- O43_W1 -- W2A -- W2 -- W3 -- W4 -- W5 -- W6 -- W7 -- A5a_W8
