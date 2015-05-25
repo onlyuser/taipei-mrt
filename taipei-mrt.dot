@@ -5,7 +5,7 @@ graph taipei_mrt {
     node [color=purple, fontcolor=white]
     subgraph cluster_4 {
         label="桃園國際機場捷運"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=purple, fontcolor=white]
 
         A1_BL7_R13 [label="台北車站", shape=doublecircle, color=black, fontcolor=black, fillcolor=white]
@@ -18,7 +18,7 @@ graph taipei_mrt {
     A5a_W8 [label="貴子坑", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
     subgraph cluster_4 {
         label="桃園國際機場捷運"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=purple, fontcolor=white]
 
         A6 [label="泰山貴和"]
@@ -133,7 +133,7 @@ graph taipei_mrt {
     node [color=yellow, fontcolor=black]
     subgraph cluster_2 {
         label="安坑輕軌"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=yellow, fontcolor=black]
 
         K9_Y7 [label="十四張", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
@@ -298,7 +298,7 @@ graph taipei_mrt {
     BR13_GLA0_S1_Y1 [label="動物園"]
     subgraph cluster_0 {
         label="深坑輕軌"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=brown, fontcolor=white]
 
         S2 [label="草地尾"]
@@ -316,7 +316,7 @@ graph taipei_mrt {
     BR13_GLA0_S1_Y1 [label="動物園"]
     subgraph cluster_1 {
         label="貓空纜車"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=yellowgreen, fontcolor=black]
 
         GLA1 [label="動物園內"]
@@ -407,7 +407,7 @@ graph taipei_mrt {
     node [color=yellow, fontcolor=black]
     subgraph cluster_3 {
         label="五股泰山輕軌"
-        style="rounded, filled"
+        style="rounded,filled"
         node [color=yellow, fontcolor=black]
 
         Y22_W1A [label="分子尾", shape=ellipse, color=black, fontcolor=black, fillcolor=white]
