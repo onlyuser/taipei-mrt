@@ -12,7 +12,7 @@ taipei-mrt is a dot specification for the Taipei MRT.
 A Motivating Example
 --------------------
 
-![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt.png "taipei-mrt")
+![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos.png "taipei-mrt_with_pos")
 
 Requirements
 ------------
