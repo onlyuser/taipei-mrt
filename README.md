@@ -29,7 +29,7 @@ Usage:
 ------
 
 <pre>
-dot taipei-mrt.dot -Tpng -otaipei-mrt.png
+neato taipei-mrt.dot -Tpng -otaipei-mrt.png
 </pre>
 
 Keywords:
