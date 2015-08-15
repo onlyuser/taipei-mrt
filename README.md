@@ -6,11 +6,17 @@ Copyright (C) 2011-2015 Jerry Chen <mailto:onlyuser@gmail.com>
 About
 -----
 
-taipei-mrt is a dot specification for the Taipei MRT.
+taipei-mrt is a graphviz dot specification for the Taipei MRT.
 台北捷運系統graphviz dot地圖.
 
 A Motivating Example
 --------------------
+
+Simple:
+
+![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt.png "taipei-mrt")
+
+With GPS coordinates for major junctions:
 
 ![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos.png "taipei-mrt_with_pos")
 
