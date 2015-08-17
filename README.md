@@ -14,11 +14,11 @@ A Motivating Example
 
 Simple:
 
-![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt.png "taipei-mrt")
+![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_thumb.png "taipei-mrt")
 
 With GPS coordinates for major junctions:
 
-![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos.png "taipei-mrt_with_pos")
+![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos_thumb.png "taipei-mrt_with_pos")
 
 Requirements
 ------------
