@@ -12,7 +12,7 @@ taipei-mrt is a graphviz dot specification for the Taipei MRT.
 A Motivating Example
 --------------------
 
-Simple:
+Radial:
 
 [![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_thumb.png "taipei-mrt")](https://sites.google.com/site/onlyuser/files/taipei-mrt.png)
 
