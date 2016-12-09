@@ -14,15 +14,15 @@ A Motivating Example
 
 Radial:
 
-[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_thumb.png "taipei-mrt")](https://sites.google.com/site/onlyuser/files/taipei-mrt.png)
+[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_thumb.png?attredirects=0 "taipei-mrt")](https://sites.google.com/site/onlyuser/files/taipei-mrt.png?attredirects=0)
 
 With GPS coordinates for major junctions:
 
-[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos_thumb.png "taipei-mrt_with_pos")](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos.png)
+[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos_thumb.png?attredirects=0 "taipei-mrt_with_pos")](https://sites.google.com/site/onlyuser/files/taipei-mrt_with_pos.png?attredirects=0)
 
 Tree layout:
 
-[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_tree_layout_thumb.png "taipei-mrt_with_pos")](https://sites.google.com/site/onlyuser/files/taipei-mrt_tree_layout.png)
+[![picture alt](https://sites.google.com/site/onlyuser/files/taipei-mrt_tree_layout_thumb.png?attredirects=0 "taipei-mrt_with_pos")](https://sites.google.com/site/onlyuser/files/taipei-mrt_tree_layout.png?attredirects=0)
 
 Requirements
 ------------
