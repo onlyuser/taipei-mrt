@@ -27,7 +27,7 @@ Tree layout:
 Requirements
 ------------
 
-    graphviz
+    bash graphviz
 
 Installation (Debian)
 ---------------------
